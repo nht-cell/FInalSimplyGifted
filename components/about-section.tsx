@@ -32,7 +32,7 @@ export function AboutSection() {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">About SimplyGifted</h2>
             <div className="max-w-4xl mx-auto">
-              <Card className="bg-white/90 backdrop-blur-md border-2 shadow-2xl">
+              <Card className="bg-white/90 backdrop-blur-md border-black border-2 shadow-2xl">
                 <CardContent className="p-8 md:p-12">
                   <p className="text-xl text-foreground leading-relaxed mb-3">
                     <span className="font-bold text-accent">Our Mission:</span> At SimplyGifted Shop, we strive to bring joy to every occasion with our carefully curated selection of unique gifts. Our mission is to
