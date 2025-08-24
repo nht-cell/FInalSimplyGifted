@@ -35,7 +35,7 @@ export function AboutSection() {
               <Card className="bg-white/90 backdrop-blur-md border-black border-2 shadow-2xl">
                 <CardContent className="p-8 md:p-12">
                   <p className="text-xl text-foreground leading-relaxed mb-3">
-                    <span className="font-bold text-accent">Our Stuff:</span> At SimplyGifted Shop, we strive to bring joy to every occasion with our carefully curated selection of unique gifts. Our mission is to
+                    <span className="font-bold text-accent">Our Mission:</span> At SimplyGifted Shop, we strive to bring joy to every occasion with our carefully curated selection of unique gifts. Our mission is to
                     provide high-quality products that make gift-giving a delightful experience for everyone.
                   </p>
                 </CardContent>
