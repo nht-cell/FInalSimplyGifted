@@ -130,7 +130,7 @@ export function ProductCarousel() {
                   />
                 </div>
                 <div className="h-1/4 p-4 flex flex-col justify-center">
-                  <h3 className="text-lg font-bold text-foreground text-center truncate">{card.name}</h3>
+                  <h3 className="text-lg font-bold text-foreground text-center">{card.name}</h3>
                   <p className="text-accent font-semibold text-center mt-1">{card.price}</p>
                 </div>
               </div>
