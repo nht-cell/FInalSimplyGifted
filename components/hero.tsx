@@ -43,7 +43,7 @@ export function Hero() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
             {giftBaskets.map((basket) => (
               <div key={basket.id} className="group relative mx-2 sm:mx-0 cursor-pointer">
-                <div className="relative overflow-hidden aspect-square border-1 border-black rounded-lg transition-all duration-300 hover:border-accent hover:shadow-lg">
+                <div className="relative overflow-hidden aspect-square rounded-2xl shadow-xl/20 transition-all duration-300 hover:border-accent hover:shadow-lg">
                   <img
                     src={basket.image || "/placeholder.svg"}
                     alt={basket.name}
