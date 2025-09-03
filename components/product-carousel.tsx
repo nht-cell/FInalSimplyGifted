@@ -9,23 +9,23 @@ const products = [
     id: 1,
     name: "Cupid Gift Basket",
     price: "$15.00",
-    image: "/cupid-gift-basket.png",
+    image: "/cupid-basket.png",
     description:
       "This Valentine’s, make someone’s day unforgettable with a personalized Cupid’s Basket! Perfect for your girlfriend, best friend, or secret crush, these baskets are crafted with love and designed just for you.",
   },
   {
     id: 2,
-    name: "Winter Wish Basket",
+    name: "Diwali Gift Basket",
     price: "$30.00",
-    image: "/winter-wish-basket.png",
+    image: "/diwali-basket.png",
     description:
-      "Our Self-Care Basket is designed to bring comfort, relaxation, and a touch of indulgence to your day. Filled with cozy essentials like a scented candle, soothing tea, soft socks, and sweet treats, it’s perfect for unwinding after a long week. Thoughtfully curated, it’s a reminder to slow down, breathe, and treat yourself",
+      "Celebrate Diwali stress-free with everything you need in one convenient, affordable basket. Priced at just $40, the Shubh Diwali Gift Basket is designed to help you make this Diwali extra special without breaking the bank or spending hours shopping.",
   },
   {
     id: 3,
-    name: "Holiday Gift Basket",
+    name: "Winter Wish Gift Basket",
     price: "$39.99",
-    image: "/holiday-gift-basket.png",
+    image: "/winter-wish-basket.png",
     description:
       "Get ready to spread some holiday cheer with Simply Gifted’s exclusive Christmas basket line! 🎄✨ Perfect for friends, family, or corporate gifts, our baskets are filled with handpicked, festive goodies that bring warmth and joy to any celebration.",
   },
