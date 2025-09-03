@@ -54,7 +54,7 @@ export default function TeamPage() {
                       <img
                         src={member.image || "/placeholder.svg"}
                         alt={member.name}
-                        className="w-full h-80 lg:h-96 object-cover"
+                        className="w-full h-120 lg:h-120 object-cover"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                     </div>
