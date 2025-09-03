@@ -8,7 +8,7 @@ const products = [
   {
     id: 1,
     name: "Cupid Gift Basket",
-    price: "$39.99",
+    price: "$15.00",
     image: "/cupid-gift-basket.png",
     description:
       "This Valentine’s, make someone’s day unforgettable with a personalized Cupid’s Basket! Perfect for your girlfriend, best friend, or secret crush, these baskets are crafted with love and designed just for you.",
@@ -16,7 +16,7 @@ const products = [
   {
     id: 2,
     name: "Winter Wish Basket",
-    price: "$39.99",
+    price: "$30.00",
     image: "/winter-wish-basket.png",
     description:
       "Our Self-Care Basket is designed to bring comfort, relaxation, and a touch of indulgence to your day. Filled with cozy essentials like a scented candle, soothing tea, soft socks, and sweet treats, it’s perfect for unwinding after a long week. Thoughtfully curated, it’s a reminder to slow down, breathe, and treat yourself",
