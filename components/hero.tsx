@@ -6,20 +6,14 @@ export function Hero() {
     {
       id: 1,
       name: "Cupid Gift Basket",
-      price: "$39.99",
-      image: "/cupid-gift-basket.png",
+      price: "$15.00",
+      image: "/cupid-basket.png",
     },
     {
       id: 2,
-      name: "Winter Wish Basket",
-      price: "$39.99",
-      image: "/winter-wish-basket.png",
-    },
-    {
-      id: 3,
-      name: "Holiday Gift Basket",
-      price: "$39.99",
-      image: "/holiday-gift-basket.png",
+      name: "Diwali Gift Basket",
+      price: "$30.00",
+      image: "/diwali-basket.png",
     },
   ]
 
@@ -40,7 +34,7 @@ export function Hero() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-8 mb-12 sm:mb-16">
             {giftBaskets.map((basket) => (
               <div key={basket.id} className="group relative mx-2 sm:mx-0 cursor-pointer">
                 <div className="relative overflow-hidden aspect-square rounded-2xl shadow-xl/20 transition-all duration-300 hover:border-accent hover:shadow-lg">
