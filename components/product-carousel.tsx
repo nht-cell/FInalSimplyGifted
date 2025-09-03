@@ -9,7 +9,7 @@ const products = [
     id: 1,
     name: "Cupid Gift Basket",
     price: "$15.00",
-    image: "/cupid-basket.png",
+    image: "/cupid-gift-basket.png",
     description:
       "This Valentine’s, make someone’s day unforgettable with a personalized Cupid’s Basket! Perfect for your girlfriend, best friend, or secret crush, these baskets are crafted with love and designed just for you.",
   },
@@ -17,7 +17,7 @@ const products = [
     id: 2,
     name: "Diwali Gift Basket",
     price: "$30.00",
-    image: "/diwali-basket.png",
+    image: "/diwali-gift-basket.png",
     description:
       "Celebrate Diwali stress-free with everything you need in one convenient, affordable basket. Priced at just $40, the Shubh Diwali Gift Basket is designed to help you make this Diwali extra special without breaking the bank or spending hours shopping.",
   },
