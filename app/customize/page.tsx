@@ -34,19 +34,20 @@ export default function CustomizePage() {
                   If you want different gift baskets from our pre-made options, customize your own gift basket with the link below. Fast shipping and premium items are guaranteed.
                 </p>
               </div>
-
-              <a href="https://docs.google.com/forms/u/3/d/1JY6owZZyb611qFBygTEurygzlqpzf1652DnhRYDXC30/edit?usp=drive_web&ouid=115700254986914348113" className="block w-fit">
-                <Button
-                  size="lg"
-                  className="relative bg-gradient-to-r from-accent to-accent/80 hover:from-accent/90 hover:to-accent/70 text-white px-12 sm:px-16 py-7 sm:py-7 text-lg sm:text-xl font-semibold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 overflow-hidden group"
-                >
-                  <span className="relative z-10">
-                    Order Custom Gift Basket
-                  </span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700">
-                  </div>
-                </Button>
-              </a>
+              <div className="flex items-center justify-center min-h-screen">
+                <a href="https://docs.google.com/forms/u/3/d/1JY6owZZyb611qFBygTEurygzlqpzf1652DnhRYDXC30/edit?usp=drive_web&ouid=115700254986914348113" className="block w-fit">
+                  <Button
+                    size="lg"
+                    className="relative bg-gradient-to-r from-accent to-accent/80 hover:from-accent/90 hover:to-accent/70 text-white px-12 sm:px-16 py-7 sm:py-7 text-lg sm:text-xl font-semibold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 overflow-hidden group"
+                  >
+                    <span className="relative z-10">
+                      Order Custom Gift Basket
+                    </span>
+                    <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700">
+                    </div>
+                  </Button>
+                </a>
+              </div>
             </CardContent>
           </Card>
 
