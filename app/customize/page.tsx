@@ -39,7 +39,12 @@ export default function CustomizePage() {
                 size="lg"
                 className="relative bg-gradient-to-r from-accent to-accent/80 hover:from-accent/90 hover:to-accent/70 text-white px-12 sm:px-16 py-7 sm:py-7 text-lg sm:text-xl font-semibold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 overflow-hidden group"
               >
-                <span className="relative z-10">Order Custom Gift Basket</span>
+                <a
+                  href="/custom-gift-basket"
+                  className="relative z-10 block w-full h-full"
+                >
+                  Order Custom Gift Basket
+                </a>
                 <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
               </Button>
             </CardContent>
