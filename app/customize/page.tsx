@@ -35,7 +35,7 @@ export default function CustomizePage() {
                 </p>
               </div>
 
-              <a href="/custom-gift-basket" className="block w-fit">
+              <a href="https://docs.google.com/forms/u/3/d/1JY6owZZyb611qFBygTEurygzlqpzf1652DnhRYDXC30/edit?usp=drive_web&ouid=115700254986914348113" className="block w-fit">
                 <Button
                   size="lg"
                   className="relative bg-gradient-to-r from-accent to-accent/80 hover:from-accent/90 hover:to-accent/70 text-white px-12 sm:px-16 py-7 sm:py-7 text-lg sm:text-xl font-semibold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 overflow-hidden group"
