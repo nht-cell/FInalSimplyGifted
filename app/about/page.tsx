@@ -8,7 +8,7 @@ export default function AboutPage() {
       year: "2024",
       content:
         "Simply Gifted is a student-run business dedicated to providing personalized gifts for everyone. At Simply Gifted, our mission is to create an inclusive gifting experience that celebrates every individual and occasion. We believe that everyone deserves to feel special, which is why we offer a diverse range of customizable and pre-made gift baskets designed to cater to various tastes and preferences. Whether it’s a widely celebrated holiday or a niche event, our goal is to ensure that every basket reflects the uniqueness of the recipient.",
-      image: "/chapter-1.png",
+      image: "/our-story.png",
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ export default function AboutPage() {
       year: "2024",
       content:
         " In celebration of Diwali, we are thrilled to announce that Simply Gifted has dedicated 10% of our total profits to support the Karya Siddhi Hanuman Temple. This festival of lights is a time of giving and gratitude, and we’re honored to contribute to a cause that means so much to our community. In the coming weeks, our team will personally visit the temple to make this donation and show our appreciation. Thank you for helping us make this meaningful gesture possible—your support lights the way for us to give back.",
-      image: "/chapter-2.png",
+      image: "/causes.png",
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ export default function AboutPage() {
       content:
         "During October, our executive team had the chance to pitch Simply Gifted at the SMU Business showcase alongside various different businesses. We are proud to announce that Simply Gifted was one of the highest voted teams at the showcase. Our team has worked very hard, and we are honored to have been given the opportunity to compete against so many great businesses. We thank SMU for hosting this event and for allowing us to showcase Simply Gifted to everyone!",
       image:
-        "/chapter-3.png",
+        "/smu-pitch.png",
     },
     {
       id: 4,
