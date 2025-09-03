@@ -34,7 +34,7 @@ export default function CustomizePage() {
                   If you want different gift baskets from our pre-made options, customize your own gift basket with the link below. Fast shipping and premium items are guaranteed.
                 </p>
               </div>
-              <div className="flex items-center justify-center min-h-screen">
+              <div className="flex items-center justify-center">
                 <a href="https://docs.google.com/forms/u/3/d/1JY6owZZyb611qFBygTEurygzlqpzf1652DnhRYDXC30/edit?usp=drive_web&ouid=115700254986914348113" className="block w-fit">
                   <Button
                     size="lg"
