@@ -13,7 +13,7 @@ export function Hero() {
       id: 2,
       name: "Diwali Gift Basket",
       price: "$30.00",
-      image: "/diwali-basket.png",
+      image: "/diwali-gift-basket.png",
     },
   ]
 
