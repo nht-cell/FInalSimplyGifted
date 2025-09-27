@@ -53,7 +53,6 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto space-y-20">
           {storyChapters.map((chapter, index) => (
             <div key={chapter.id} className="relative">
-              {/* Timeline indicator */}
               <div className="absolute left-1/2 transform -translate-x-1/2 -top-4 z-10">
               </div>
 
