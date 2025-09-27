@@ -12,10 +12,10 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "SimplyGifted - Your Thoughts. Our Creations.",
+  title: "SimplyGifted",
   description:
-    "Premium gift baskets for any occasion. Carefully curated unique gifts that make gift-giving a delightful experience.",
-  generator: "v0.app",
+    "Your Thoughts.Our Creations.",
+  generator: "SimplyGifted",
 }
 
 export default function RootLayout({
