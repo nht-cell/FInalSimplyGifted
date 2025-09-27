@@ -6,13 +6,10 @@ export function Footer() {
       <div className="container mx-auto">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-            {/* Company Info */}
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-secondary-foreground">SimplyGifted</h3>
               <p className="text-secondary-foreground/80 leading-relaxed">Your Thoughts. Our Creations.</p>
             </div>
-
-            {/* Quick Links */}
             <div className="space-y-4">
               <h4 className="text-lg font-semibold text-secondary-foreground">Quick Links</h4>
               <ul className="space-y-2">
@@ -43,8 +40,7 @@ export function Footer() {
                 </li>
               </ul>
             </div>
-
-            {/* Socials */}
+            {/* Change, add links to socials */}
             <div className="space-y-4">
               <h4 className="text-lg font-semibold text-secondary-foreground">Services</h4>
               <ul className="space-y-2">
@@ -66,7 +62,7 @@ export function Footer() {
               </ul>
             </div>
 
-            {/* Contact Info */}
+            {/* Change, add your contact Info */}
             <div className="space-y-4">
               <h4 className="text-lg font-semibold text-secondary-foreground">Contact Us</h4>
               <div className="space-y-3">
@@ -81,11 +77,9 @@ export function Footer() {
               </div>
             </div>
           </div>
-
-          {/* Bottom Bar */}
           <div className="border-t border-secondary-foreground/20 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-              <p className="text-secondary-foreground/60 text-sm">© 2024 SimplyGifted. All rights reserved.</p>
+              <p className="text-secondary-foreground/60 text-sm">© 2025 SimplyGifted. All rights reserved.</p>
             </div>
           </div>
         </div>
