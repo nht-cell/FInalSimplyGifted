@@ -11,8 +11,7 @@ export default function CustomizePage() {
             Customize Your Gift
           </h1>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
-            Create a personalized gift basket tailored to your recipient's preferences. Let us craft something truly
-            special together.
+            Want something other than our pre-made options? Create your own custom gift basket with us.
           </p>
         </div>
 
@@ -31,7 +30,7 @@ export default function CustomizePage() {
                   Custom Gift Baskets
                 </h2>
                 <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-                  If you want different gift baskets from our pre-made options, customize your own gift basket with the link below. Fast shipping and premium items are guaranteed.
+                  Customize your own gift basket with the form below. Help create unforgettable moments with SimplyGifted.
                 </p>
               </div>
               <div className="flex items-center justify-center">
