@@ -6,19 +6,24 @@ import { Star, Heart, Gift } from "lucide-react"
 export default function PreMadePage() {
   const features = [
     {
-      icon: Star,
-      title: "Premium Quality",
-      description: "Each basket features carefully selected, high-quality products from trusted artisans and brands.",
-    },
-    {
       icon: Heart,
       title: "Thoughtfully Curated",
-      description: "Our team hand-picks every item to create harmonious collections that tell a story.",
+      description: "Every basket is curated to create lasting memories",
     },
     {
       icon: Gift,
-      title: "Ready to Gift",
-      description: "Beautifully packaged and ready for delivery, making your gift-giving effortless.",
+      title: "Premium Quality",
+      description: "Only the finest products are used in our gift baskets",
+    },
+    {
+      icon: Star,
+      title: "Memorable Experiences",
+      description: "Cherish moments with your loved ones with our gift baskets",
+    },
+    {
+      icon: Users,
+      title: "Personal Touch",
+      description: "Each basket is crafted with personal attention to detail",
     },
   ]
 
@@ -39,15 +44,14 @@ export default function PreMadePage() {
             <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
           </Button>
         </div>
-
-        {/* Enhanced Product Carousel */}
+        
         <div className="mb-20">
           <ProductCarousel />
         </div>
 
         <div className="mb-20">
           <h2 className="text-3xl font-bold text-foreground text-center mb-12">Why Choose Our Pre-Made Baskets?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {features.map((feature, index) => (
               <Card
                 key={index}
