@@ -19,7 +19,6 @@ export function Hero() {
 
   return (
     <section className="relative">
-      {/* Hero Background */}
       <div className="relative bg-gradient-to-br from-background via-primary/20 to-muted/30 py-16 sm:py-20 md:py-24 px-4">
         <div className="container mx-auto text-center">
           <div className="mb-12 sm:mb-16 md:mb-20">
