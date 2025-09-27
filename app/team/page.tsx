@@ -70,9 +70,7 @@ export default function TeamPage() {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        
+        </div>    
       </div>
     </div>
   )
