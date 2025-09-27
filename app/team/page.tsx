@@ -35,7 +35,7 @@ export default function TeamPage() {
         <div className="text-center mb-20">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">Meet the Team</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Meet with the passionate executive team of Simply Gifted below.
+            Meet the team behind SimplyGifted below.
           </p>
         </div>
 
