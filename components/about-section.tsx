@@ -6,17 +6,17 @@ export function AboutSection() {
     {
       icon: Heart,
       title: "Thoughtfully Curated",
-      description: "Every item is carefully selected for quality and meaning",
+      description: "Every basket is curated to create lasting memories",
     },
     {
       icon: Gift,
       title: "Premium Quality",
-      description: "Only the finest products make it into our gift baskets",
+      description: "Only the finest products are used in our gift baskets",
     },
     {
       icon: Star,
       title: "Memorable Experiences",
-      description: "Creating moments that last a lifetime",
+      description: "Cherish moments with your loved ones with our gift baskets",
     },
     {
       icon: Users,
