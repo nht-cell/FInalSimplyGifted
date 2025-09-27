@@ -63,7 +63,6 @@ export default function TeamPage() {
                     <div className="max-w-2xl">
                       <h3 className="text-2xl lg:text-3xl font-bold text-foreground mb-2">{member.name}</h3>
                       <p className="text-muted-foreground leading-relaxed text-lg mb-8">{member.bio}</p>
-
                     </div>
                   </div>
                 </div>
