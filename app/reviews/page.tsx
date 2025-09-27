@@ -19,8 +19,6 @@ export default function ReviewsPage() {
             See what our customers are saying about their Simply Gifted experience.
           </p>
         </div>
-
-        {/* Statistics */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
           {stats.map((stat, index) => (
             <Card key={index} className="text-center bg-card/80 backdrop-blur-sm">
@@ -31,13 +29,9 @@ export default function ReviewsPage() {
             </Card>
           ))}
         </div>
-
-        {/* Reviews Carousel */}
         <div className="mb-16">
           <ReviewsCarousel />
         </div>
-
-        {/* Share */}
         <div className="text-center">
           <Card className="bg-card/80 backdrop-blur-sm border-2 shadow-lg max-w-4xl mx-auto">
             <CardContent className="p-8 lg:p-12">
