@@ -94,20 +94,17 @@ export function ReviewsCarousel() {
           let scale = 0.8
 
           if (position === 0) {
-            // Center card
             transform = "translateX(0) translateZ(0) rotateY(0deg)"
             zIndex = 10
             opacity = 1
             scale = 1
           } else if (position === 1 || position === reviews.length - 1) {
-            // Adjacent cards
             const isRight = position === 1
             transform = `translateX(${isRight ? "300px" : "-300px"}) translateZ(-200px) rotateY(${isRight ? "-20deg" : "20deg"})`
             zIndex = 5
             opacity = 0.6
             scale = 0.85
           } else {
-            // Hidden cards
             const isRight = position < reviews.length / 2
             transform = `translateX(${isRight ? "450px" : "-450px"}) translateZ(-400px) rotateY(${isRight ? "-40deg" : "40deg"})`
             zIndex = 1
