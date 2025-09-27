@@ -27,10 +27,9 @@ export function Navigation() {
     <nav className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
-          {/* Logo and Business Name */}
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-2">
-              {/* Logo placeholder */}
+              {/* Change, logo placeholder */}
               <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-sm">SG</span>
               </div>
@@ -39,8 +38,6 @@ export function Navigation() {
               </Link>
             </div>
           </div>
-
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {mainNavItems.map((item) => (
               <Link
@@ -51,8 +48,6 @@ export function Navigation() {
                 {item.label}
               </Link>
             ))}
-
-            {/* More dropdown */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="flex items-center space-x-1">
@@ -71,8 +66,6 @@ export function Navigation() {
               </DropdownMenuContent>
             </DropdownMenu>
           </div>
-
-          {/* Mobile Navigation */}
           <div className="md:hidden">
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
