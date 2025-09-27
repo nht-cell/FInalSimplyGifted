@@ -85,20 +85,17 @@ export function ProductCarousel() {
           let scale = 0.8
 
           if (position === 0) {
-            // Center card
             transform = "translateX(0) translateZ(0) rotateY(0deg)"
             zIndex = 10
             opacity = 1
             scale = 1
           } else if (position === 1 || position === products.length - 1) {
-            // Adjacent cards
             const isRight = position === 1
             transform = `translateX(${isRight ? "280px" : "-280px"}) translateZ(-200px) rotateY(${isRight ? "-25deg" : "25deg"}`
             zIndex = 5
             opacity = 0.6
             scale = 0.85
           } else {
-            // Hidden cards
             const isRight = position < products.length / 2
             transform = `translateX(${isRight ? "400px" : "-400px"}) translateZ(-400px) rotateY(${isRight ? "-45deg" : "45deg"})`
             zIndex = 1
