@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { ProductCarousel } from "@/components/product-carousel"
 import { Card, CardContent } from "@/components/ui/card"
-import { Star, Heart, Gift } from "lucide-react"
+import { Star, Heart, Gift, Users } from "lucide-react"
 
 export default function PreMadePage() {
   const features = [
