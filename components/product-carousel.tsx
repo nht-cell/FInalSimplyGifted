@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const products = [
   {
-    id: 1,
+    id: 2,
     name: "Cupid Gift Basket",
     price: "Coming Soon!",
     image: "/cupid-basket.png",
@@ -14,7 +14,7 @@ const products = [
       "This Valentine’s, make someone’s day unforgettable with a personalized Cupid’s Basket! Perfect for your girlfriend, best friend, or secret crush, these baskets are crafted with love and designed just for you.",
   },
   {
-    id: 2,
+    id: 1,
     name: "Self-Care Basket",
     price: "$14.99",
     image: "/self-care-min.png",
