@@ -15,7 +15,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Cupid's Gift Basket",
+    name: "Cupid's Basket",
     price: "Coming Soon!",
     image: "/cupid-basket.png",
     description:
