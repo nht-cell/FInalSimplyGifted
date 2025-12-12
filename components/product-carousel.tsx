@@ -8,7 +8,7 @@ const products = [
   {
     id: 1,
     name: "Cupid Gift Basket",
-    price: "$15.00",
+    price: "Coming Soon!",
     image: "/cupid-basket.png",
     description:
       "This Valentine’s, make someone’s day unforgettable with a personalized Cupid’s Basket! Perfect for your girlfriend, best friend, or secret crush, these baskets are crafted with love and designed just for you.",
@@ -24,7 +24,7 @@ const products = [
   {
     id: 3,
     name: "Winter Wish Gift Basket",
-    price: "$39.99",
+    price: "Coming Soon!",
     image: "/winter-wish-basket.png",
     description:
       "Get ready to spread some holiday cheer with Simply Gifted’s exclusive Christmas basket line! 🎄✨ Perfect for friends, family, or corporate gifts, our baskets are filled with handpicked, festive goodies that bring warmth and joy to any celebration.",
