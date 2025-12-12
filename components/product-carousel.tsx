@@ -6,18 +6,18 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const products = [
   {
-    id: 2,
-    name: "Cupid Gift Basket",
-    price: "Coming Soon!",
-    image: "/cupid-basket.png",
-    description:
-      "This Valentine’s, make someone’s day unforgettable with a personalized Cupid’s Basket! Perfect for your girlfriend, best friend, or secret crush, these baskets are crafted with love and designed just for you.",
-  },
-  {
     id: 1,
     name: "Self-Care Basket",
     price: "$14.99",
     image: "/self-care-min.png",
+    description:
+      "This Valentine’s, make someone’s day unforgettable with a personalized Cupid’s Basket! Perfect for your girlfriend, best friend, or secret crush, these baskets are crafted with love and designed just for you.",
+  },
+  {
+    id: 2,
+    name: "Cupid's Gift Basket",
+    price: "Coming Soon!",
+    image: "/cupid-basket.png",
     description:
       "Celebrate Diwali stress-free with everything you need in one convenient, affordable basket. Priced at just $40, the Shubh Diwali Gift Basket is designed to help you make this Diwali extra special without breaking the bank or spending hours shopping.",
   },
