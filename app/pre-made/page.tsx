@@ -42,7 +42,7 @@ export default function PreMadePage() {
           >
             import Link from 'next/link';
 
-<Link href="/https://buy.stripe.com/7sY8wP8gWh1h4b07dv7Vm08">
+<link href="/https://buy.stripe.com/7sY8wP8gWh1h4b07dv7Vm08">
   <Button
     size="lg"
     className="relative bg-gradient-to-r from-accent to-accent/80 hover:from-accent/90 hover:to-accent/70 text-white px-16 py-7 text-xl"
@@ -50,7 +50,7 @@ export default function PreMadePage() {
     <span className="relative z-10">Order Pre-Made Basket</span>
     <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/20 to-white/0 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
   </Button>
-</Link>
+</link>
         
         <div className="mb-20">
           <ProductCarousel />
