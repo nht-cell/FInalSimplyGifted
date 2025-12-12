@@ -17,7 +17,7 @@ const products = [
     id: 2,
     name: "Self-Care Basket",
     price: "$14.99",
-    image: "/diwali-gift-basket.png",
+    image: "/self-care-min.png",
     description:
       "Celebrate Diwali stress-free with everything you need in one convenient, affordable basket. Priced at just $40, the Shubh Diwali Gift Basket is designed to help you make this Diwali extra special without breaking the bank or spending hours shopping.",
   },
