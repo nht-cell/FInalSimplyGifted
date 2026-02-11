@@ -9,7 +9,7 @@ const products = [
     id: 1,
     name: "Self-Care Basket",
     price: "$14.99",
-    image: "/Cupid26.png",
+    image: "/self-care-min.png",
     description:
       "This Valentine’s, make someone’s day unforgettable with a personalized Cupid’s Basket! Perfect for your girlfriend, best friend, or secret crush, these baskets are crafted with love and designed just for you.",
   },
@@ -17,7 +17,7 @@ const products = [
     id: 2,
     name: "Cupid's Basket",
     price: "Coming Soon!",
-    image: "/CupidsBasket2026.pdf",
+    image: "/Cupid26.png",
     description:
       "Celebrate Diwali stress-free with everything you need in one convenient, affordable basket. Priced at just $40, the Shubh Diwali Gift Basket is designed to help you make this Diwali extra special without breaking the bank or spending hours shopping.",
   },
