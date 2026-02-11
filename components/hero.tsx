@@ -7,7 +7,7 @@ export function Hero() {
       id: 1,
       name: "Cupid Gift Basket",
       price: "$15.00",
-      image: "/CupidsBasket2026.pdf",
+      image: "/smu0pitch.png",
     },
     {
       id: 2,
