@@ -7,7 +7,7 @@ export function Hero() {
       id: 1,
       name: "Cupid Gift Basket",
       price: "$15.00",
-      image: "/smu-pitch.png",
+      image: "/cupid-basket.png",
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ export function Hero() {
               <div key={basket.id} className="group relative mx-2 sm:mx-0 cursor-pointer">
                 <div className="relative overflow-hidden aspect-3/2 rounded-2xl shadow-xl/20 transition-all duration-300 hover:border-accent hover:shadow-lg">
                   <img
-                    src={basket.image || "/smu-pitch.png"}
+                    src={basket.image || "/diwali-gift-basket.png"}
                     alt={basket.name}
                     className="w-full h-full object-cover"
                   />
