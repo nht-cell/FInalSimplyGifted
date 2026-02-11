@@ -17,7 +17,7 @@ const products = [
     id: 2,
     name: "Cupid's Basket",
     price: "Coming Soon!",
-    image: "/cupid-basket.png",
+    image: "/CupidsBasket2026.pdf",
     description:
       "Celebrate Diwali stress-free with everything you need in one convenient, affordable basket. Priced at just $40, the Shubh Diwali Gift Basket is designed to help you make this Diwali extra special without breaking the bank or spending hours shopping.",
   },
